@@ -1,0 +1,14 @@
+#config.yml
+paths:
+  data_dir: "./data"
+  output_dir: "./output"
+
+files:
+  energy: "./data/energia_renovable.csv"
+  world_population: "./data/world_population.csv"
+  emissions: "./data/global_ghg_emissions.csv"
+  pib: "./data/pib.xlsx"
+
+output:
+  database_file: "./output/database.sqlite"
+  merged_file: "./output/merged.csv"
